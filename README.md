@@ -8,7 +8,7 @@
 - attr_readerにsumとsales_amountを定義することによってclass外からインスタンス変数の読み取りを可能にした
 （最初はsales_amountメソッドを作成していたが、定義することでメソッドを削ることができた）
 - add_new_drinkメソッドで@drinksの配列に入れる条件として引数で取得したnameがAVAILABLE_DRINKSに入っているかということに加えて@drinksに同じnameが入っていない場合だけ配列に追加する条件分岐にした
-- purchaseメソッドでselect?メソッドを呼び出し、 select?メソッドでpurchasable_drinkメソッド呼び出す一連の流れ
+- purchaseメソッドでselect?メソッドを呼び出し、 select?メソッドでpurchasable_drinkメソッドを呼び出す一連の流れ
 
 ### 質問したいこと・リファクタしたい箇所など
 - ブロックパラメータの変数名は省略してもよろしいでしょうか？（今回はdrinkをdで略しました）
