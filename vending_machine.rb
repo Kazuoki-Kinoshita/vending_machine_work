@@ -7,7 +7,7 @@ class VendingMachine
   def initialize
     @sum = 0
     @sales_amount = 0 
-    @drinks = [ {name: "cola", price: 120, stock: 5} ]
+    @drinks = [{ name: "cola", price: 120, stock: 5 }]
   end
 
   def add_new_drink(name, price, stock)
